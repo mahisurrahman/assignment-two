@@ -86,8 +86,8 @@ nav {
 /* Banner Section Starts */
 
 .banner-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     padding: 0 10%;
     height: 100vh;
 }
@@ -153,9 +153,13 @@ nav {
     background-color: #4EC5F7;
 }
 
+.banner-image {
+    text-align: right;
+}
+
 .banner-img {
-    width: 100%;
-    height: 80vh;
+    width: 70%;
+    padding-top: 50px;
 }
 
 /* Ends */
@@ -396,68 +400,74 @@ nav {
 
 /* Footer section */
 
-footer{
+footer {
     margin-top: 100px;
     padding: 5% 20%;
     background-color: #0B0223;
 }
-.footer-logo{
-    justify-content: center!important;
+
+.footer-logo {
+    justify-content: center !important;
 }
 
-.footer-menus{
+.footer-menus {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
 }
 
-.footer-title{
-    color: white!important;
+.footer-title {
+    color: white !important;
 }
 
-.footer-menus h5{
+.footer-menus h5 {
     color: white;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
 
-.ficons{
+.ficons {
     width: 5%;
     height: 5%;
 }
-.footer-icons img{
+
+.footer-icons img {
     margin: 0 2%;
 }
 
-.footer-menu-two{
+.footer-menu-two {
     display: flex;
     justify-content: center;
     padding-top: 40px;
 }
 
-.footer-menu-two p{
+.footer-menu-two p {
     color: white;
     font-size: 0.70rem;
     margin: 0 20px;
     text-align: center;
 }
 
-.copyright{
+.copyright {
     padding-top: 40px;
 }
 
-.copyright p{
+.copyright p {
     color: white;
     font-size: 0.70rem;
     text-align: center;
 }
+
+
+
+
 
 
 
@@ -470,7 +480,10 @@ footer{
     5. Extra large screens, TV:  1201px, and more
 */
 
+
+/* 1. Mobile Devices: 320px - 480px */
 @media screen and (max-width:480px) {
+
     nav {
         display: grid;
         grid-template-columns: 1fr;
@@ -485,4 +498,82 @@ footer{
         flex-direction: column;
         gap: 20px;
     }
+
+    .banner-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0!important;
+    }
+
+    nav {
+        margin-bottom: 300px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-content {
+        margin: 0!important;
+        padding: 0!important;
+        text-align: center;
+    }
+
+    .banner-sub-title {
+        text-align: center;
+    }
+
+    .banner-title {
+        text-align: center;
+    }
+
+    .contents {
+        justify-content: center;
+    }
+
+    .banner-buttons,
+    .button {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .button {
+        margin: 0 5px;
+    }
+
+    .gamer-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background: white;
+    }
+
+    .gimage {
+        width: 400px !important;
+        height: auto;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    .gtitle {
+        text-align: center;
+    }
+
+    .gdescription {
+        text-align: center;
+    }
+
+    .gamer-contents {
+        text-align: center;
+    }
+
+    .online-section {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .onltitle { 
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
 }
