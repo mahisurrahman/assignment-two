@@ -31,6 +31,7 @@
     height: 15px;
 }
 
+
 .gamer {
     color: var(--primary-color);
 }
@@ -221,7 +222,7 @@ nav {
 
 /* online section starts  */
 .online-section {
-    padding: 50px 10% 0 10%;
+    padding: 100px 10% 100px 10%;
     margin-bottom: 100px;
 }
 
@@ -278,7 +279,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
     padding: 0 10%;
-    margin-bottom: -100px;
+    margin-bottom: -70px;
+    margin-top: -50px;
 }
 
 .play-section {
@@ -357,7 +359,7 @@ nav {
 .genre-section {
     padding: 0 10%;
     display: flex;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -371,6 +373,7 @@ nav {
 .genre-one img {
     width: 25%;
     height: 85%;
+
 }
 
 .genre-one p {
@@ -380,14 +383,82 @@ nav {
     padding-left: 5px;
 }
 
-.genre-one:hover{
+.genre-one:hover {
     border: 1px solid #FF42A5;
     border-radius: 50px;
 }
 
-.genre-one:hover .genre-titles{
+.genre-one:hover .genre-titles {
     color: #FF42A5;
 }
+
+/* Genre Section Ends  */
+
+/* Footer section */
+
+footer{
+    margin-top: 100px;
+    padding: 5% 20%;
+    background-color: #0B0223;
+}
+.footer-logo{
+    justify-content: center!important;
+}
+
+.footer-menus{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.footer-title{
+    color: white!important;
+}
+
+.footer-menus h5{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.ficons{
+    width: 5%;
+    height: 5%;
+}
+.footer-icons img{
+    margin: 0 2%;
+}
+
+.footer-menu-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer-menu-two p{
+    color: white;
+    font-size: 0.70rem;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 40px;
+}
+
+.copyright p{
+    color: white;
+    font-size: 0.70rem;
+    text-align: center;
+}
+
 
 
 /* Responsive Section Starts Here */
