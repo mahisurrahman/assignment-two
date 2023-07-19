@@ -163,7 +163,7 @@ nav {
 /* We are Gamer Section Starts  */
 .gamer-section {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.75fr 1fr;
     align-items: center;
     padding: 0 10%;
     margin-bottom: 100px;
@@ -187,7 +187,7 @@ nav {
 }
 
 .gdescription{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     margin: 20px 0;
