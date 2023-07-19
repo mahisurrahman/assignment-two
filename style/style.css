@@ -1,6 +1,8 @@
 /* Universal Selectors */
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Ends */
@@ -16,19 +18,16 @@
 
 /* Ends */
 
-/* Body CSS */
-body {
-    padding: 0;
-    margin: 0;
-}
-
-/* Ends  */
-
 
 /* Nav Section Starts */
 .icons {
     width: 20px;
     height: 19px;
+}
+
+.icons-two{
+    width: 15px;
+    height: 15px;
 }
 
 .gamer {
@@ -43,7 +42,7 @@ body {
 nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 10%;
+    padding: 30px 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -84,28 +83,76 @@ nav {
 
 /* Banner Section Starts */
 
-.banner-section{
+.banner-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0 10%;
-    height: 50vh;
+    height: 100vh;
 }
 
-.banner-content{
-    padding-top: 50px;
+.banner-content {
+    padding-top: 150px;
+    text-align: left;
 }
 
-.banner-sub-title{
-    font-size: 40px;
+.banner-sub-title {
+    font-size: 2.2rem;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: left;
+    padding-left: 7px;
 }
 
+.banner-title {
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: left;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-.banner-img{
-    width: 90%;
-    height: 70vh;
-    justify-content: center;
+.more-banner-contents{
+    padding: 10px 0px;
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 10px 5px;
+}
+.banner-icons{
+    padding: 0px 10px 0px 5px;
+}
+
+.banner-icon-text{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.onebtn{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.twobtn{
+    background-color: #4EC5F7;
+}
+
+.banner-img {
+    width: 100%;
+    height: 80vh;
 }
 
 
