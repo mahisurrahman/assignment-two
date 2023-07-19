@@ -1,55 +1,64 @@
-*{
+
+/* Universal Selectors */
+* {
     font-family: 'Work Sans', sans-serif;
 }
+/* Ends */
 
-:root{
+/* Declaring Variables to play around universely */
+:root {
     --primary-color: #FF42A5;
     --secondary-color: #0B0223;
-    --third-color:rgba(11, 2, 35, 0.10);
+    --third-color: rgba(11, 2, 35, 0.10);
     --linear-grad: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 
 }
+/* Ends */
 
-body{
+/* Body CSS */
+body {
     padding: 0;
     margin: 0;
 }
+/* Ends  */
 
-.icons{
+
+/* Nav Section Starts */
+.icons {
     width: 20px;
     height: 19px;
 }
 
-.gamer{
+.gamer {
     color: var(--primary-color);
 }
 
-.site-logo h2{
+.site-logo h2 {
     font-size: 45px;
     font-weight: 700;
 }
 
-nav{
+nav {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding:0 10%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
 }
 
-.site-logo{
+.site-logo {
     display: flex;
     justify-items: center;
     align-items: center;
 }
 
-.site-menus{
+.site-menus {
     display: flex;
     align-items: center;
 
 }
 
-.site-follow-tab{
+.site-follow-tab {
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -57,13 +66,29 @@ nav{
     background-color: rgba(211, 211, 211, 0.599);
 }
 
-.site-menus p{
+.site-menus p {
     font-size: 15px;
     color: var(--secondary-color);
     font-weight: 500;
     margin: 0 10px;
 }
 
-.site-follow-tab img{
+.site-follow-tab img {
     margin: 0 5px;
 }
+/*Ends */
+
+
+
+
+
+
+
+/* Responsive Section Starts Here */
+/* Breakpoints
+    1. Mobile Devices: 320px - 480px
+    2. Ipads, Tablets: 481px - 768px
+    3. Small Screens, Laptops: 769px - 1024px
+    4. Desktops, large screens: 1025px — 1200px
+    5. Extra large screens, TV:  1201px, and more
+*/
