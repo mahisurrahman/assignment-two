@@ -36,7 +36,7 @@
 }
 
 .site-logo h2 {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -69,7 +69,7 @@ nav {
 }
 
 .site-menus p {
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--secondary-color);
     font-weight: 500;
     margin: 0 10px;
@@ -130,7 +130,7 @@ nav {
 
 .banner-icon-text {
     color: #534C64;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -140,7 +140,7 @@ nav {
     border-radius: 50px;
     margin: 10px 5px;
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -178,7 +178,7 @@ nav {
 }
 
 .gtitle {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -199,14 +199,14 @@ nav {
     border-radius: 50px;
     background-color: var(--primary-color);
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 35px;
 }
 
 .gdestwo {
     color: var(--fourth-color);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -226,7 +226,7 @@ nav {
 }
 
 .online-section h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: var(--secondary-color);
     font-weight: 700;
     text-align: center;
@@ -239,9 +239,9 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.online-section p{
-    color:var(--fourth-color);
-    font-size: 15px;
+.online-section p {
+    color: var(--fourth-color);
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     padding-top: 10px;
@@ -254,18 +254,99 @@ nav {
 }
 
 .online-posters img {
-    width: 240px;
-    height: 300px;
+    width: 90%;
 }
 
-.posters p{
+.posters p {
     padding: 10px;
     color: var(--fourth-color);
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 500;
     text-align: left;
 }
 
+/* ends */
+
+
+
+
+
+/* Instatn Play Section  */
+
+.instant-play-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding: 0 10%;
+}
+
+.play-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-section-des {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #534C64;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.play-title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 100px;
+}
+
+.play-image-one {
+    width: 100%;
+    height: 65%;
+    text-align: end;
+}
+
+.play-image-two {
+    position: relative;
+    bottom: 200px;
+    right: 80px;
+    width: 50%;
+    text-align: start;
+}
+
+.play-image-three {
+    width: 100%;
+    height: 65%;
+    text-align: end;
+}
+
+.play-image-four {
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    width: 50%;
+    /* text-align: start; */
+}
+
+.play-title-two {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 100px;
+}
+
+
+.play-section-des-two {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #534C64;
+    font-weight: 400;
+    line-height: 20px;
+}
 
 
 
