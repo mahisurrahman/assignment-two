@@ -5,7 +5,9 @@
 :root{
     --primary-color: #FF42A5;
     --secondary-color: #0B0223;
+    --third-color:rgba(11, 2, 35, 0.10);
     --linear-grad: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+
 }
 
 body{
@@ -14,6 +16,54 @@ body{
 }
 
 .icons{
-    width: 15px;
-    height: 14px;
+    width: 20px;
+    height: 19px;
+}
+
+.gamer{
+    color: var(--primary-color);
+}
+
+.site-logo h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.site-menus{
+    display: flex;
+    align-items: center;
+
+}
+
+.site-follow-tab{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    background-color: rgba(211, 211, 211, 0.599);
+}
+
+.site-menus p{
+    font-size: 15px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.site-follow-tab img{
+    margin: 0 5px;
 }
