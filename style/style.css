@@ -25,7 +25,7 @@
     height: 19px;
 }
 
-.icons-two{
+.icons-two {
     width: 15px;
     height: 15px;
 }
@@ -113,26 +113,27 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.more-banner-contents{
+.more-banner-contents {
     padding: 10px 0px;
 }
 
-.contents{
+.contents {
     display: flex;
     align-items: center;
     padding: 0px 0px 10px 5px;
 }
-.banner-icons{
+
+.banner-icons {
     padding: 0px 10px 0px 5px;
 }
 
-.banner-icon-text{
+.banner-icon-text {
     color: #534C64;
     font-size: 15px;
     font-weight: 500;
 }
 
-.button{
+.button {
     padding: 15px 30px;
     border: none;
     border-radius: 50px;
@@ -142,11 +143,11 @@ nav {
     font-weight: 600;
 }
 
-.onebtn{
+.onebtn {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 
-.twobtn{
+.twobtn {
     background-color: #4EC5F7;
 }
 
@@ -172,3 +173,20 @@ nav {
     4. Desktops, large screens: 1025px — 1200px
     5. Extra large screens, TV:  1201px, and more
 */
+
+@media screen and (max-width:480px){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .site-logo{
+        justify-content: center;
+    }
+
+    .site-menus{
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
