@@ -165,8 +165,8 @@ nav {
     display: grid;
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
-    padding: 0 10%;
-    margin-bottom: 100px;
+    padding: 100px 10%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .gamer-image img {
@@ -186,14 +186,14 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.gdescription{
-    font-size: 14px;
+.gdescription {
+    font-size: 13px;
     font-weight: 400;
     line-height: 25px;
     margin: 20px 0;
 }
 
-.gbutton{
+.gbutton {
     padding: 16px 35px;
     border: none;
     border-radius: 50px;
@@ -204,18 +204,67 @@ nav {
     margin-bottom: 35px;
 }
 
-.gdestwo{
+.gdestwo {
     color: var(--fourth-color);
     font-size: 15px;
     font-weight: 500;
 }
 
-.gtitletwo{
+.gtitletwo {
     color: var(--fourth-color);
     font-size: 20px;
     font-weight: 700px;
 }
 
+/* ends  */
+
+
+/* online section starts  */
+.online-section {
+    padding: 50px 10% 0 10%;
+    margin-bottom: 100px;
+}
+
+.online-section h2 {
+    font-size: 40px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    text-align: center;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-section p{
+    color:var(--fourth-color);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.online-posters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.online-posters img {
+    width: 240px;
+    height: 300px;
+}
+
+.posters p{
+    padding: 10px;
+    color: var(--fourth-color);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
 
 
 
