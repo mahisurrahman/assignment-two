@@ -13,17 +13,7 @@ body{
     margin: 0;
 }
 
-.site-logo-text{
-    text-align: center;
-    font-size: 45px;
-    font-weight: 700;
-    color: var(--primary-color);
+.icons{
+    width: 15px;
+    height: 14px;
 }
-
-.site-logo h2{
-    text-align: center;
-    font-size: 45px;
-    font-weight: 700;
-    color: var(--secondary-color);
-}
-
